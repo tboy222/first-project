@@ -1,0 +1,65 @@
+
+
+body {
+    background-color: #121212; /* Dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: arial,  sans-serif;
+
+}
+
+.card {
+    background-color: #1e1e1e; /* slightly lighter dark for the card */
+    border-radius: 15px;
+    padding: 25px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0.3);
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.location {
+    color: #bbff00; /* bright yellow-green for location */
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+}
+
+.bio {
+    color: #b0b0b0;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.social-btn {
+    display: block; /* Makes the <a> tag take the full width */
+    background-color: #333333; /* Dark button background */
+    color: #ffffff;
+    text-decoration: none; /* Removes the default underline from links */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: turquoise; /* Slightly lighter on hover */
+    co
+}
